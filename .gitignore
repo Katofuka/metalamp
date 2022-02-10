@@ -1,0 +1,7 @@
+#Игнорирование файлов
+package.json
+webpack.config.js
+package-lock.json
+# ---- Игнорирование каталогов ----
+/src/*
+/node_modules/*

@@ -3,5 +3,5 @@ package.json
 webpack.config.js
 package-lock.json
 # ---- Игнорирование каталогов ----
-/src/*
+/pages/*
 /node_modules/*

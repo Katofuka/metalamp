@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./kit/kit.js":
-/*!********************!*\
-  !*** ./kit/kit.js ***!
-  \********************/
+/***/ "./pages/registration.js":
+/*!*******************************!*\
+  !*** ./pages/registration.js ***!
+  \*******************************/
 /***/ (() => {
 
-eval("\n\n//# sourceURL=webpack:///./kit/kit.js?");
+eval("\n\n//# sourceURL=webpack:///./pages/registration.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("\n\n//# sourceURL=webpack:///./kit/kit.js?");
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./kit/kit.js"]();
+/******/ 	__webpack_modules__["./pages/registration.js"]();
 /******/ 	
 /******/ })()
 ;

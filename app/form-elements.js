@@ -9,13 +9,13 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./index/index.js":
-/*!************************!*\
-  !*** ./index/index.js ***!
-  \************************/
+/***/ "./kit/form-elements.js":
+/*!******************************!*\
+  !*** ./kit/form-elements.js ***!
+  \******************************/
 /***/ (() => {
 
-eval("console.log(\"Как интересно!\")\n\n//# sourceURL=webpack:///./index/index.js?");
+eval("\n\n//# sourceURL=webpack:///./kit/form-elements.js?");
 
 /***/ })
 
@@ -26,7 +26,7 @@ eval("console.log(\"Как интересно!\")\n\n//# sourceURL=webpack:///./
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
 /******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./index/index.js"]();
+/******/ 	__webpack_modules__["./kit/form-elements.js"]();
 /******/ 	
 /******/ })()
 ;

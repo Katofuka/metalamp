@@ -10,23 +10,43 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./components/menu/menu.js":
-/*!*********************************!*\
-  !*** ./components/menu/menu.js ***!
-  \*********************************/
+/***/ "./pages/headers-footers/headers-footers.scss":
+/*!****************************************************!*\
+  !*** ./pages/headers-footers/headers-footers.scss ***!
+  \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(array, className) {\r\n    var menu = document.createElement(\"ul\");\r\n    menu.className = className;\r\n    var listItems = '';\r\n    array.forEach(function(item) {\r\n    listItems += '<ul><li>' + item + '</li></ul>';\r\n    });\r\n    menu.innerHTML = listItems;\r\n    return menu;\r\n    }\n\n//# sourceURL=webpack:///./components/menu/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./pages/headers-footers/headers-footers.scss?");
 
 /***/ }),
 
-/***/ "./kit/cards.js":
-/*!**********************!*\
-  !*** ./kit/cards.js ***!
-  \**********************/
+/***/ "./styles.scss":
+/*!*********************!*\
+  !*** ./styles.scss ***!
+  \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_menu_menu_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/menu/menu.js */ \"./components/menu/menu.js\");\n\r\nvar menu = (0,_components_menu_menu_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(['Kit','Pages'], 'menu');\r\ndocument.body.appendChild(menu);\r\n \r\nconsole.log('in index.js')\n\n//# sourceURL=webpack:///./kit/cards.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./styles.scss?");
+
+/***/ }),
+
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pages_headers_footers_headers_footers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/headers-footers/headers-footers */ \"./pages/headers-footers/headers-footers.js\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.scss */ \"./styles.scss\");\n\r\n\r\n\r\n\r\n\r\nconsole.log('privet soviet!');\n\n//# sourceURL=webpack:///./index.js?");
+
+/***/ }),
+
+/***/ "./pages/headers-footers/headers-footers.js":
+/*!**************************************************!*\
+  !*** ./pages/headers-footers/headers-footers.js ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _headers_footers_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./headers-footers.scss */ \"./pages/headers-footers/headers-footers.scss\");\n\n\n//# sourceURL=webpack:///./pages/headers-footers/headers-footers.js?");
 
 /***/ })
 
@@ -57,23 +77,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
@@ -90,7 +93,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./kit/cards.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./index.js");
 /******/ 	
 /******/ })()
 ;

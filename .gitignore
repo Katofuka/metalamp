@@ -1,7 +1,6 @@
 #Игнорирование файлов
 package.json
-webpack.config.js
+#webpack.config.js
 package-lock.json
 # ---- Игнорирование каталогов ----
-/pages/*
 /node_modules/*

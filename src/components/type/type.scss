@@ -1,0 +1,35 @@
+@font-face {
+ font-family: Montserrat-Bold;
+ src: url(../../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+ font-family: Montserrat-Regular;
+ src: url(../../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@mixin text {
+ text-transform: uppercase;
+ font-weight: bold;
+ font-family: Montserrat-Bold;
+}
+
+h1{    
+ @include text;
+ font-size: 24px;
+}
+
+h2{
+ @include text;
+ font-size: 19px;
+}
+
+h3{
+ @include text;
+ font-size: 12px;
+}
+
+.body-text{       
+ font-size: 14px;
+ font-family: Montserrat-Regular;     
+}

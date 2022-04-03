@@ -1,3 +1,26 @@
 .footer{
  display: grid;
+ grid-template-columns: repeat(18, 1rf);
+ background-color: #FFFFFF;
+ height: 140px;
+}
+
+.footer__logo{
+    grid-column: 2/3;
+    background-color: rgb(20, 165, 40);
+}
+
+.footer__navigation-menu{
+    grid-column: 3/7;
+    background-color: rgb(85, 14, 85);
+} 
+
+.footer__join{
+    grid-column: 7/9;
+    background-color: rgb(9, 62, 131);
+}
+
+.footer__registration{
+    grid-column: 9/12;
+    background-color: rgb(212, 200, 24);
 }

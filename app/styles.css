@@ -99,7 +99,7 @@ h3 {
 .container {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(2, 100px, auto);
+  grid-template-columns: repeat(2, auto);
 }
 
 [class^=box-] {

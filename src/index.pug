@@ -1,11 +1,20 @@
 //- layout.pug
+block variables
+ - var title = 'MetaLamp Сайт гостиницы'
+ - var head = 'METALamp'
+ - var content = 'Контент страницы по умолчанию'
+
 doctype html
 html(lang="ru")
  head
   link(rel='stylesheet' href='./styles.css')
-  title Meta #{title}
-  script(src='./index.js')  
+  title #{title}
+  block scripts
+   script(src='./index.js')  
  body
-  .page
-   include ./pages/color-type/color-type.pug
+  block header
+  block content 
+   main
+    div.content
+  block footer
  

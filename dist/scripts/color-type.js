@@ -20,16 +20,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
-/***/ "./components/footer/footer.scss":
-/*!***************************************!*\
-  !*** ./components/footer/footer.scss ***!
-  \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./components/footer/footer.scss?");
-
-/***/ }),
-
 /***/ "./components/type/type.scss":
 /*!***********************************!*\
   !*** ./components/type/type.scss ***!
@@ -60,33 +50,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 /***/ }),
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pages_headers_footers_headers_footers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./pages/headers-footers/headers-footers */ \"./pages/headers-footers/headers-footers.js\");\n/* harmony import */ var _pages_color_type_color_type__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/color-type/color-type */ \"./pages/color-type/color-type.js\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.scss */ \"./styles.scss\");\n\r\n\r\n\r\n\r\n\r\n\r\nconsole.log('privet soviet!');\n\n//# sourceURL=webpack:///./index.js?");
-
-/***/ }),
-
 /***/ "./pages/color-type/color-type.js":
 /*!****************************************!*\
   !*** ./pages/color-type/color-type.js ***!
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_type_type_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/type/type.scss */ \"./components/type/type.scss\");\n/* harmony import */ var _components_colors_colors_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/colors/colors.scss */ \"./components/colors/colors.scss\");\n/* harmony import */ var _color_type_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./color-type.scss */ \"./pages/color-type/color-type.scss\");\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./pages/color-type/color-type.js?");
-
-/***/ }),
-
-/***/ "./pages/headers-footers/headers-footers.js":
-/*!**************************************************!*\
-  !*** ./pages/headers-footers/headers-footers.js ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_footer_footer_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/footer/footer.scss */ \"./components/footer/footer.scss\");\n\r\n\r\n//import './headers-footers.scss';\n\n//# sourceURL=webpack:///./pages/headers-footers/headers-footers.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _color_type__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./color-type */ \"./pages/color-type/color-type.js\");\n/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../styles.scss */ \"./styles.scss\");\n/* harmony import */ var _components_type_type_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/type/type.scss */ \"./components/type/type.scss\");\n/* harmony import */ var _components_colors_colors_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/colors/colors.scss */ \"./components/colors/colors.scss\");\n/* harmony import */ var _color_type_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./color-type.scss */ \"./pages/color-type/color-type.scss\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconsole.log('privet soviet!');\n\n//# sourceURL=webpack:///./pages/color-type/color-type.js?");
 
 /***/ })
 
@@ -132,8 +102,8 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./index.js");
+/******/ 	// This entry module is referenced by other modules so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__("./pages/color-type/color-type.js");
 /******/ 	
 /******/ })()
 ;

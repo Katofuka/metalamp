@@ -9,21 +9,27 @@ module.exports = {
     mode: 'development',
     //точка входа
     entry:{   
-        'index': './index.js',        
+        'color-type': '/pages/color-type/color-type.js',
+        'headers-footers': '/pages/headers-footers/headers-footers.js',        
     },
     //точки выхода
     output:{
-        filename: '[name].js',
-        path: path.resolve(__dirname, 'app')       
+        filename: 'scripts/[name].js',
+        path: path.resolve(__dirname, 'dist')       
     }, 
     plugins: [  
         new HtmlWebpackPlugin({
-            filename: 'index.html', //название выходного файла
-            chunks: ['cards'],
-            template: path.resolve(__dirname,'./src/index.pug') //шаблон
+            filename: 'pages/color-type.html', //название выходного файла
+            chunks: ['color-type'],
+            template: path.resolve(__dirname,'./src/pages/color-type/color-type.pug') //шаблон
+        }),  
+        new HtmlWebpackPlugin({
+            filename: 'pages/headers-footers.html', //название выходного файла
+            chunks: ['headers-footers'],
+            template: path.resolve(__dirname,'./src/pages/headers-footers/headers-footers.pug') //шаблон
         }),  
         new miniCss({
-            filename: 'styles.css',
+            filename: 'styles/[name].css',        
          }),
         new CleanWebpackPlugin(), 
         new HtmlWebpackPugPlugin()    

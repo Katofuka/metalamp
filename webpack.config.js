@@ -7,24 +7,29 @@ const miniCss = require('mini-css-extract-plugin');
 module.exports = {
     context: path.resolve(__dirname, 'src'),
     mode: 'development',
-    //точка входа
+    devServer: {
+        open: true,
+        static: {
+            directory: './src',
+            watch: true
+        }
+    },
     entry:{   
         'color-type': '/pages/color-type/color-type.js',
         'headers-footers': '/pages/headers-footers/headers-footers.js',        
     },
-    //точки выхода
     output:{
         filename: 'scripts/[name].js',
         path: path.resolve(__dirname, 'dist')       
     }, 
     plugins: [  
         new HtmlWebpackPlugin({
-            filename: 'pages/color-type.html', //название выходного файла
+            filename: 'pages/color-type.html', 
             chunks: ['color-type'],
             template: path.resolve(__dirname,'./src/pages/color-type/color-type.pug') //шаблон
         }),  
         new HtmlWebpackPlugin({
-            filename: 'pages/headers-footers.html', //название выходного файла
+            filename: 'pages/headers-footers.html', 
             chunks: ['headers-footers'],
             template: path.resolve(__dirname,'./src/pages/headers-footers/headers-footers.pug') //шаблон
         }),  
